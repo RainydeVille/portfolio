@@ -120,7 +120,7 @@ button > a {
   text-align: left;
 }
 
-#eduHeader {
+.eduHeader {
   margin-left: 2rem;
 }
 
@@ -156,4 +156,61 @@ button > a {
 #experience {
   display: flex;
   flex-direction: row;
+}
+
+#skills {
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+
+.skillsHeader {
+  text-align: center;
+}
+
+#codingSkills {
+  background-color: rgb(243, 235, 235);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 500px;
+  height: 250px;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsRow {
+  display: flex;
+  gap: 4rem;
+}
+
+#codingLanguages ul {
+  list-style: none;
+  columns: 2;
+  column-gap: 4rem;
+  margin-left: 3rem;
+}
+
+#languages {
+  background-color: rgb(243, 235, 235);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 500px;
+  height: 150px;
+}
+
+#theLanguages {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-left: 5rem;
+}
+
+.oneLanguage {
+  line-height: 0.5rem;
+}
+
+.level {
+  font-size: small;
+  font-weight: 500;
 }
