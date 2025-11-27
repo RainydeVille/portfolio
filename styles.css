@@ -113,6 +113,7 @@ button > a {
 
 #resume {
   background-color: rgb(243, 235, 235);
+  border-radius: 0.5rem;
   margin-left: 40rem;
   padding: 1rem;
   width: 720px;
@@ -141,4 +142,18 @@ button > a {
 #year {
   margin-left: 2rem;
   line-height: 3rem;
+}
+
+#work {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  background-color: rgb(214, 209, 209);
+  border-radius: 0.5rem;
+  width: 500px;
+  padding: 1rem;
+}
+
+#experience {
+  display: flex;
+  flex-direction: row;
 }
