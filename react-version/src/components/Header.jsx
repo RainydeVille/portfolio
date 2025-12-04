@@ -1,7 +1,9 @@
 export default function Header() {
   return (
     <header>
-      <h2 id="name">Egle Vaitkeviciene</h2>
+      <h2 style={{ fontFamily: "alagard" }} id="name">
+        Egle Vaitkeviciene
+      </h2>
       <nav>
         <ul>
           <li>
