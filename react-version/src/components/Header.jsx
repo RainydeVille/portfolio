@@ -5,21 +5,27 @@ export default function Header() {
   return (
     <header>
       <div id="nameInfo">
-        <h2 style={{ fontFamily: "alagard" }} id="name">
-          Egle Vaitkeviciene
+        <h2 style={{ fontFamily: "deltarune" }} id="name">
+          Egle vaitkeviciene
         </h2>
         <img id="kitty" src={Kitty1} alt="Little black kitty" />
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#aboutMe">About me</a>
+            <a style={{ fontFamily: "PressStart2P" }} href="#aboutMe">
+              About me
+            </a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a style={{ fontFamily: "PressStart2P" }} href="#resume">
+              Resume
+            </a>
           </li>
           <li>
-            <a href="#projects"></a>Projects
+            <a style={{ fontFamily: "PressStart2P" }} href="#projects">
+              Projects
+            </a>
           </li>
         </ul>
       </nav>
