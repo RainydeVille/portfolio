@@ -15,8 +15,15 @@ body {
   line-height: 1.6;
 
   /* Colors */
-  background-color: #f9fafb;
+  background-color: black;
   color: #111827;
+
+  /*background image */
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  background-size: contain;
+  background-position: center;
 
   /* Layout smoothing */
   -webkit-font-smoothing: antialiased;
