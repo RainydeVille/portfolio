@@ -1,9 +1,15 @@
+import "../styles/header.scss";
+import Kitty1 from "../assets/images/Kitty1.png";
+
 export default function Header() {
   return (
     <header>
-      <h2 style={{ fontFamily: "alagard" }} id="name">
-        Egle Vaitkeviciene
-      </h2>
+      <div id="nameInfo">
+        <h2 style={{ fontFamily: "alagard" }} id="name">
+          Egle Vaitkeviciene
+        </h2>
+        <img id="kitty" src={Kitty1} alt="Little black kitty" />
+      </div>
       <nav>
         <ul>
           <li>
