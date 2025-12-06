@@ -1,13 +1,25 @@
+import { useEffect, useRef } from "react";
+import { typingEffect } from "../animations/typing.js";
 import "../styles/header.scss";
 import Kitty1 from "../assets/images/Kitty1.png";
 
 export default function Header() {
+  const hasRun = useRef(false);
+
+  useEffect(() => {
+    if (hasRun.current) return; //if it already ran then do nothing
+    hasRun.current = true;
+
+    typingEffect("name", "EGLE VAITKEVICIENE", 120, () => {
+      const img = document.getElementById("kitty");
+      img.classList.add("show");
+    });
+  }, []);
+
   return (
     <header>
       <div id="nameInfo">
-        <h2 style={{ fontFamily: "deltarune" }} id="name">
-          Egle vaitkeviciene
-        </h2>
+        <h2 style={{ fontFamily: "I-pixel-u" }} id="name"></h2>
         <img id="kitty" src={Kitty1} alt="Little black kitty" />
       </div>
       <nav>
