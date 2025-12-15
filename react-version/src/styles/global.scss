@@ -32,3 +32,16 @@ body {
   /* Prevent horizontal scroll issues */
   overflow-x: hidden;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
