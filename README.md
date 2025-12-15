@@ -7,4 +7,4 @@ PS: The site is under construction 🧙‍♂️ I am moving to React framework 
 
 ### This is how the progress on the new site is coming along:
 
-![Screenshot of the site](/images/Screenshot%202025-12-05.png)
+![Screenshot of the site](/images/Screenshot.png)
